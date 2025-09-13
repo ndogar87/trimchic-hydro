@@ -6,8 +6,14 @@
 
 @import 'tailwindcss';
 
-/* Import Google Fonts for elegant premium heading */
-@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+/* Local Font Declaration */
+@font-face {
+  font-family: 'Island Moments';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/IslandMoments-Regular.ttf') format('truetype');
+  font-display: swap;
+}
 
 /* Custom CSS Variables for TrimChic Brand */
 :root {

@@ -121,8 +121,12 @@ function HeroSection() {
                 </div>
 
                 <h1
-                  className="font-island text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] xl:text-[12rem] 2xl:text-[14rem] leading-[0.8] text-gray-900"
-                  style={{fontFamily: '"Island Moments", cursive', fontWeight: 400, fontStyle: 'normal'}}
+                  className="text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] xl:text-[12rem] 2xl:text-[14rem] leading-[0.8] text-gray-900"
+                  style={{
+                    fontFamily: 'Brush Script MT, Lucida Handwriting, Lucida Calligraphy, cursive',
+                    fontWeight: 400,
+                    fontStyle: 'italic'
+                  }}
                 >
                   <span className="block mb-3 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-orange-500 to-amber-500">
                     Glow Like
